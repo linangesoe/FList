@@ -25,7 +25,7 @@ const hasContent = computed(()=>frontmatter.value.hasContent);
       </MainBox>
     </div>
     <div class="footer">
-      <FLink to="https://github.com/jianjianai/FList">由 FList 强力驱动</FLink>
+      <FLink to="https://git.nangesoe.cn">由 FList 强力驱动</FLink>
     </div>
 <!--    消息弹出框-->
     <Notification></Notification>
