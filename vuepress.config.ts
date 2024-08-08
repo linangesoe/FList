@@ -31,13 +31,13 @@ export default defineUserConfig({
   theme: FileList([
     {
       // 挂载路径
-      mountPath: "/KnapsackToGo4下载",
+      mountPath: "/nangenetxt",
       // 文件解析器，这里使用githubReleasesFilesAnalysis,可以解析github的release文件
       analysis: githubReleasesFilesAnalysis({
         // 仓库所有者的用户名
-        user: "jianjianai",
+        user: "linangesoe",
         // 仓库所有者的仓库名
-        repository: "KnapsackToGo4"
+        repository: "nangenetxt"
       }),
     },
     {
