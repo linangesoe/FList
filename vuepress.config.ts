@@ -40,7 +40,7 @@ export default defineUserConfig({
         repository: "nangenetxt"
       }),
     },
-    /*{
+    {
       mountPath: "/",
       analysis: githubReleasesFilesAnalysis({ user: "jianjianai", repository: "FList" }),
       // 下载代理配置,支持多个平台，参考:https://jjaw.cn/2024/8/3/flist-config-porxy/
@@ -48,7 +48,7 @@ export default defineUserConfig({
       // 如果你使用的不是 cloudflare Pages 部署需要删掉这一行，因为如果不是cloudflare Pages部署，这个代理是无法正常工作的
       downProxy: cloudflarePagesDownProxy(),
     },
-    {
+    /*{
       mountPath: "/",
       // 这里使用 fileUrlTreeAnalysis 文件放到对应的文件路径中
       analysis: fileUrlTreeAnalysis({
