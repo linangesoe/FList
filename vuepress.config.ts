@@ -40,6 +40,17 @@ export default defineUserConfig({
         repository: "FList"
       }),
     },
+    {
+      // 挂载路径
+      mountPath: "/123",
+      // 文件解析器，这里使用githubReleasesFilesAnalysis,可以解析github的release文件
+      analysis: githubReleasesFilesAnalysis({
+        // 仓库所有者的用户名
+        user: "linangesoe",
+        // 仓库所有者的仓库名
+        repository: "FList"
+      }),
+    },
     /*{
       mountPath: "/",
       analysis: githubReleasesFilesAnalysis({ user: "jianjianai", repository: "FList" }),
