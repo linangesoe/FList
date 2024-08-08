@@ -76,7 +76,7 @@ export default defineUserConfig({
         repository:"FList",
         page: 0, //第一页
         per_page: 100 //一页显示多少个
-      }),
+      })
     }
     // ... 可以配置多个挂载路径和仓库，以此类推
   ])
