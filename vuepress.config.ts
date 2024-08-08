@@ -63,7 +63,7 @@ export default defineUserConfig({
       mountPath: "/",
       // 这里使用 fileUrlTreeAnalysis 文件放到对应的文件路径中
       analysis: fileUrlTreeAnalysis({
-        "/FList/WordPress丨7.3_子比主题（破解）": "https://www.123pan.com/s/T9VtVv-1MMr3.html"
+        "/FList/WordPress丨7.3_子比主题": "https://www.123pan.com/s/T9VtVv-1MMr3.html"
       }),
       down/FList/测试视频1.mp4": "Proxy: cloudflarePagesDownProxy(),//如果文件树地址下载比较慢，也可以配置代理
     },
