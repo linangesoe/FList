@@ -34,7 +34,6 @@ export default defineUserConfig({
       mountPath: "/FList",
       // 文件解析器，这里使用githubReleasesFilesAnalysis,可以解析github的release文件
       analysis: githubReleasesFilesAnalysis({
-        "/test2/文件树-测试视频1.mp4": "https://github.com/jianjianai/FList/releases/download/root/test.video.2.1080p.webm",
         // 仓库所有者的用户名
         user: "linangesoe",
         // 仓库所有者的仓库名
@@ -52,7 +51,7 @@ export default defineUserConfig({
     {
       mountPath: "/",
       // 这里使用 fileUrlTreeAnalysis 文件放到对应的文件路径中
-      analysis: fileUrlTreeAnalysis({
+      analysis: FList({
         "/test2/文件树-测试视频1.mp4": "https://github.com/jianjianai/FList/releases/download/root/test.video.2.1080p.webm",
         "/文件树测试/文件树-测试视频1.mp4": "https://github.com/jianjianai/FList/releases/download/root/test.video.2.1080p.webm",
         "/文件树-测试视频1.mp4": "https://github.com/jianjianai/FList/releases/download/root/test.video.2.1080p.webm"
