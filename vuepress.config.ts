@@ -76,7 +76,7 @@ export default defineUserConfig({
         repository: "FList",
         direction: "desc"
       })
-    }
+    },
     // ... 可以配置多个挂载路径和仓库，以此类推
   ])
 })
