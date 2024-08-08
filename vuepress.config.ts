@@ -29,9 +29,9 @@ export default defineUserConfig({
   shouldPrefetch: true,
   // 主题配置 FileList 是 vuepress 的一个主题，文件展示的功能全部由这个主题提供。
   theme: FileList([
-    /*{
+    {
       // 挂载路径
-      mountPath: "/FList挂载「GitHub」",
+      mountPath: "/GitHub",
       // 文件解析器，这里使用githubReleasesFilesAnalysis,可以解析github的release文件
       analysis: githubReleasesFilesAnalysis({
         // 仓库所有者的用户名
@@ -59,7 +59,7 @@ export default defineUserConfig({
       downProxy: cloudflarePagesDownProxy(),//如果文件树地址下载比较慢，也可以配置代理
     },*/
     {
-      mountPath: "/FList挂载「Huggingface」",
+      mountPath: "/Huggingface",
       analysis: huggingFaceDatasetsAnalysis({
         userName: "linan668",
         datasetsName: "fliste",
