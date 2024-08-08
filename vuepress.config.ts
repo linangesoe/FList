@@ -70,12 +70,11 @@ export default defineUserConfig({
       }),
     },
     {
-      mountPath:"/FList挂载「Gitee」",
-      analysis:giteeReleasesFilesAnalysis({
-        user:"linan",
-        repository:"FList",
-        page: 0, //第一页
-        per_page: 100 //一页显示多少个
+      mountPath: "/gitee测试",
+      analysis: giteeReleasesFilesAnalysis({
+        user: "jja8",
+        repository: "flist-test",
+        direction: "desc"
       })
     }
     // ... 可以配置多个挂载路径和仓库，以此类推
