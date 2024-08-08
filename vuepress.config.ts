@@ -58,7 +58,7 @@ export default defineUserConfig({
       }),
       downProxy: cloudflarePagesDownProxy(),//如果文件树地址下载比较慢，也可以配置代理
     },
-    {
+    /*{
       mountPath: "/huggingface测试",
       analysis: huggingFaceDatasetsAnalysis({
         userName: "Open-Orca",
@@ -76,7 +76,7 @@ export default defineUserConfig({
         repository: "flist-test",
         direction: "desc"
       })
-    }
+    },*/
     // ... 可以配置多个挂载路径和仓库，以此类推
   ])
 })
