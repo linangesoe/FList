@@ -40,7 +40,7 @@ export default defineUserConfig({
         repository: "nangenetxt"
       }),
     },
-    {
+    /*{
       mountPath: "/",
       analysis: githubReleasesFilesAnalysis({ user: "jianjianai", repository: "FList" }),
       // 下载代理配置,支持多个平台，参考:https://jjaw.cn/2024/8/3/flist-config-porxy/
@@ -58,7 +58,7 @@ export default defineUserConfig({
       }),
       downProxy: cloudflarePagesDownProxy(),//如果文件树地址下载比较慢，也可以配置代理
     },
-    /*{
+    {
       mountPath: "/huggingface测试",
       analysis: huggingFaceDatasetsAnalysis({
         userName: "Open-Orca",
