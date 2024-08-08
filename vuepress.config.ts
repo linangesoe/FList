@@ -69,14 +69,14 @@ export default defineUserConfig({
         maxDeep: 3
       }),
     },
-    /*{
-      mountPath: "/gitee测试",
+    {
+      mountPath: "/FList挂载「Gitee」",
       analysis: giteeReleasesFilesAnalysis({
-        user: "jja8",
-        repository: "flist-test",
+        user: "linan",
+        repository: "FList",
         direction: "desc"
       })
-    },*/
+    }
     // ... 可以配置多个挂载路径和仓库，以此类推
   ])
 })
