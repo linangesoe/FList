@@ -74,7 +74,7 @@ export default defineUserConfig({
       analysis: giteeReleasesFilesAnalysis({
         user: "linan",
         repository: "FList",
-        direction: "desc"
+        branchName: "master",
       })
     },
     // ... 可以配置多个挂载路径和仓库，以此类推
