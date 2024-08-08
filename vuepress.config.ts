@@ -31,7 +31,7 @@ export default defineUserConfig({
   theme: FileList([
     {
       // 挂载路径
-      mountPath: "/FList",
+      mountPath: "/FList挂载「GitHub」",
       // 文件解析器，这里使用githubReleasesFilesAnalysis,可以解析github的release文件
       analysis: githubReleasesFilesAnalysis({
         // 仓库所有者的用户名
@@ -70,7 +70,7 @@ export default defineUserConfig({
       downProxy: cloudflarePagesDownProxy(),//如果文件树地址下载比较慢，也可以配置代理
     },*/
     {
-      mountPath: "/huggingface测试",
+      mountPath: "/FList挂载「Huggingface」",
       analysis: huggingFaceDatasetsAnalysis({
         userName: "linan668",
         datasetsName: "fliste",
